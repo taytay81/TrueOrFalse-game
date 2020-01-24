@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="mycss.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="myJs.js" type="module"></script>
+    <title>True Or False that is the Question</title>
+  </head>
+
+  <body>
+    <div class="global">
+      <div class="top">
+        <div class="center">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div>
+          <h1 id="h1-id">
+            Welcome to the Ultimate IronHack true or false Game
+            <p id="p-title">or how to masterize friday's Quizz</p>
+          </h1>
+        </div>
+        <input id="play" type="button" value="Let's Play" />
+      </div>
+      <div id="true-false">
+        <div id="true">
+          <img class="falling-elements" src="./images/truewax.png" alt="true" />
+        </div>
+        <div id="false">
+          <img class="falling-elements" src="./images/false.png" alt="false" />
+        </div>
+      </div>
+      <div class="bottom">
+        <div id="scene">
+          <div id="question-container">
+            <div id="question"></div>
+          </div>
+          <div id="bunny"></div>
+          <div id="zombie"></div>
+        </div>
+        <div class="rules">
+          <div id="start-game">
+            <div class="rules-explanation">
+              <h6>Rules :</h6>
+              <p>
+                Answer to our beloved True or False questions by jumping on the
+                signs.You will only have 5 Sec per question.
+              </p>
+              <p>
+                Be careful if you are too weak a Zombie will try to eat your
+                brain
+              </p>
+              <p>Good Luck to be the best Ironhacker bunnie.&hearts;</p>
+            </div>
+            <div>
+              <p id="timer">Your Time:</p>
+              <div id="countdown">5 Sec</div>
+            </div>
+            <p class="life">Your Life :</p>
+            <div id="brain-section">
+              <div id="brain1">
+                <img class="brain" src="./images/brain.jpg" alt="brain" />
+              </div>
+              <div id="brain2">
+                <img class="brain" src="./images/brain.jpg" alt="brain" />
+              </div>
+              <div id="brain3">
+                <img class="brain" src="./images/brain.jpg" alt="brain" />
+              </div>
+              <div id="brain4">
+                <img class="brain" src="./images/brain.jpg" alt="brain" />
+              </div>
+              <div id="brain5">
+                <img class="brain" src="./images/brain.jpg" alt="brain" />
+              </div>
+            </div>
+            <div>
+              <p id="results">
+                Answer :
+              </p>
+              <div>
+                <div class="outer-div">
+                  <iframe
+                    id="false-iframe"
+                    src="https://giphy.com/embed/oQjsQmQKlFDcQ"
+                    width="240"
+                    height="135"
+                    frameborder="0"
+                    class="giphy-embed"
+                    allowfullscreen
+                  >
+                  </iframe>
+                  <div class="inner-div">
+                    <iframe
+                      id="dead-iframe"
+                      src="https://giphy.com/embed/l0NwHXQy3kUSfFF60"
+                      width="240"
+                      height="135"
+                      frameborder="0"
+                      class="giphy-embed"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="inner-div">
+                    <iframe
+                      id="true-iframe"
+                      src="https://giphy.com/embed/3oKIPcos2z4VtPd6z6"
+                      width="240"
+                      height="135"
+                      frameborder="0"
+                      class="giphy-embed"
+                      allowfullscreen
+                    >
+                    </iframe>
+                  </div>
+                  <div class="inner-div">
+                    <iframe
+                      id="win-iframe"
+                      src="https://giphy.com/embed/14hWUIZK0rKFS8"
+                      width="240"
+                      height="135"
+                      frameborder="0"
+                      class="giphy-embed"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <embed
+      src="./music/musicForGame.mp3"
+      volume="60"
+      width="1"
+      height="1"
+      loop="true"
+    />
+  </body>
+</html>
