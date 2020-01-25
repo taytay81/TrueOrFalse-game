@@ -339,6 +339,18 @@ const questions = [
   {
     question: `false&&null? True or False`,
     answer: true
+  },
+  {
+    question: `false||!true? True or False`,
+    answer: false
+  },
+  {
+    question: `true&&false||true? `,
+    answer: true
+  },
+  {
+    question: `(true||false)&&false?`,
+    answer: false
   }
 ];
 
@@ -497,7 +509,7 @@ function endGame() {
       printBrains();
       printGifGameResult("dead");
       bunny.dying();
-      document.getElementById("question").innerHTML = "OOPS you suck !";
+      document.getElementById("question").innerHTML = "OOPS you Loose !";
     }
     if (myZombie.X > -2000) {
       requestAnimationFrame(endGame);
