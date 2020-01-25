@@ -41,13 +41,39 @@
 #true {
   height: 50px;
   width: 50px;
-  margin-left: 300px;
+  margin-left: 80px;
 }
 #false {
   height: 50px;
   width: 50px;
-  margin-left: 300px;
+  margin-left: 80px;
 }
+#cloud1 {
+  height: 50px;
+  width: 50px;
+  margin-left: 120px;
+}
+#cloud2 {
+  height: 50px;
+  width: 50px;
+  margin-left: 80px;
+}
+#cloud3 {
+  height: 50px;
+  width: 50px;
+  margin-left: 200px;
+}
+#cloud4 {
+  height: 50px;
+  width: 50px;
+  margin-left: 80px;
+}
+#cloud5 {
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+}
+
 #question {
   height: 250px;
   width: 600px;
