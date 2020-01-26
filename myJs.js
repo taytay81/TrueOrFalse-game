@@ -1,4 +1,4 @@
-var timeToAnswer = 5;
+var timeToAnswer = 6;
 const playButton = document.getElementById("play");
 var actualAnswer = "";
 var step = -1;
@@ -313,35 +313,35 @@ var bunny = new Player();
 
 const questions = [
   {
-    question: `isNan(3)? true Or False? `,
+    question: `isNan(3)?`,
     answer: false
   },
   {
-    question: `isNan(Hello)? True or False`,
+    question: `isNan(Hello)?`,
     answer: true
   },
   {
-    question: `true&true? True or False`,
+    question: `true&true?`,
     answer: true
   },
   {
-    question: `false&false? True or False`,
+    question: `false&false?`,
     answer: false
   },
   {
-    question: `false||true? True or False`,
+    question: `false||true?`,
     answer: true
   },
   {
-    question: `true||undefined? True or False`,
+    question: `true||undefined?`,
     answer: true
   },
   {
-    question: `false&&null? True or False`,
-    answer: true
+    question: `false&&null?`,
+    answer: false
   },
   {
-    question: `false||!true? True or False`,
+    question: `false||!true?`,
     answer: false
   },
   {
@@ -509,7 +509,7 @@ function endGame() {
       printBrains();
       printGifGameResult("dead");
       bunny.dying();
-      document.getElementById("question").innerHTML = "OOPS you Loose !";
+      document.getElementById("question").innerHTML = "OOPS not this time!";
     }
     if (myZombie.X > -2000) {
       requestAnimationFrame(endGame);
